@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+
+    <style>
+        body {font-family: Arial; padding: 20px;}
+        input {padding: 5px;}
+        ul {list-style: none; padding: 0;}
+        li {margin: 5px 0;}
+        button {
+            margin-left: 10px;
+            padding: 4px 8px;
+            border: none;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button:hover{
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>To-Do List</h1>
+    <input type="text" name="" id="todoInp" placeholder="todo task">
+    <button onclick="addTodo()">Add ToDo</button>
+    <ul id="todoList"></ul>
+    <script src="index.js"></script>
+</body>
+</html>
